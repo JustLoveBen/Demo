@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ArrayFunInSerialQueue/ArrayFunInSerialQueue.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:viewLifeCycle/viewLifeCycle.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:insertitemtoemptycollectionview/insertitemtoemptycollectionview.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:static_autorelease/static_autorelease.xcodeproj">
+   </FileRef>
+</Workspace>
