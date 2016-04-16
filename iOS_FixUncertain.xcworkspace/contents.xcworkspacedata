@@ -5,9 +5,6 @@
       location = "group:ArrayFunInSerialQueue/ArrayFunInSerialQueue.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:viewLifeCycle/viewLifeCycle.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:insertitemtoemptycollectionview/insertitemtoemptycollectionview.xcodeproj">
    </FileRef>
    <FileRef
