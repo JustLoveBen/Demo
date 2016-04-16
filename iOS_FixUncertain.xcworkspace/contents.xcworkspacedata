@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ViewLifeCycle/ViewLifeCycle.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ArrayFunInSerialQueue/ArrayFunInSerialQueue.xcodeproj">
    </FileRef>
    <FileRef
