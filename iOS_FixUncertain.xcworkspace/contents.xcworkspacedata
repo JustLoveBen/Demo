@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:URIManager/URIManager.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:subviews/subviews.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProtocolArray/ProtocolArray.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:sizeFit/sizeFit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:imageCompression/imageCompression.xcodeproj">
    </FileRef>
    <FileRef
