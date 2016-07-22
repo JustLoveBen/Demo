@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11538C851CF42CFF00F6D3DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11538C841CF42CFF00F6D3DA /* main.m */; };
+		11538C881CF42CFF00F6D3DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11538C871CF42CFF00F6D3DA /* AppDelegate.m */; };
+		11538C8B1CF42CFF00F6D3DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11538C8A1CF42CFF00F6D3DA /* ViewController.m */; };
+		11538C8E1CF42CFF00F6D3DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11538C8C1CF42CFF00F6D3DA /* Main.storyboard */; };
+		11538C901CF42CFF00F6D3DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11538C8F1CF42CFF00F6D3DA /* Assets.xcassets */; };
+		11538C931CF42CFF00F6D3DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11538C911CF42CFF00F6D3DA /* LaunchScreen.storyboard */; };
+		11538C9E1CF42CFF00F6D3DA /* WebViewBackgroundMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11538C9D1CF42CFF00F6D3DA /* WebViewBackgroundMusicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11538C9A1CF42CFF00F6D3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11538C781CF42CFF00F6D3DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11538C7F1CF42CFF00F6D3DA;
+			remoteInfo = WebViewBackgroundMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11538C801CF42CFF00F6D3DA /* WebViewBackgroundMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewBackgroundMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11538C841CF42CFF00F6D3DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11538C861CF42CFF00F6D3DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11538C871CF42CFF00F6D3DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11538C891CF42CFF00F6D3DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11538C8A1CF42CFF00F6D3DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11538C8D1CF42CFF00F6D3DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11538C8F1CF42CFF00F6D3DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11538C921CF42CFF00F6D3DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11538C941CF42CFF00F6D3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11538C991CF42CFF00F6D3DA /* WebViewBackgroundMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewBackgroundMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11538C9D1CF42CFF00F6D3DA /* WebViewBackgroundMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewBackgroundMusicTests.m; sourceTree = "<group>"; };
+		11538C9F1CF42CFF00F6D3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11538C7D1CF42CFF00F6D3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11538C961CF42CFF00F6D3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11538C771CF42CFF00F6D3DA = {
+			isa = PBXGroup;
+			children = (
+				11538C821CF42CFF00F6D3DA /* WebViewBackgroundMusic */,
+				11538C9C1CF42CFF00F6D3DA /* WebViewBackgroundMusicTests */,
+				11538C811CF42CFF00F6D3DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11538C811CF42CFF00F6D3DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11538C801CF42CFF00F6D3DA /* WebViewBackgroundMusic.app */,
+				11538C991CF42CFF00F6D3DA /* WebViewBackgroundMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11538C821CF42CFF00F6D3DA /* WebViewBackgroundMusic */ = {
+			isa = PBXGroup;
+			children = (
+				11538C861CF42CFF00F6D3DA /* AppDelegate.h */,
+				11538C871CF42CFF00F6D3DA /* AppDelegate.m */,
+				11538C891CF42CFF00F6D3DA /* ViewController.h */,
+				11538C8A1CF42CFF00F6D3DA /* ViewController.m */,
+				11538C8C1CF42CFF00F6D3DA /* Main.storyboard */,
+				11538C8F1CF42CFF00F6D3DA /* Assets.xcassets */,
+				11538C911CF42CFF00F6D3DA /* LaunchScreen.storyboard */,
+				11538C941CF42CFF00F6D3DA /* Info.plist */,
+				11538C831CF42CFF00F6D3DA /* Supporting Files */,
+			);
+			path = WebViewBackgroundMusic;
+			sourceTree = "<group>";
+		};
+		11538C831CF42CFF00F6D3DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11538C841CF42CFF00F6D3DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11538C9C1CF42CFF00F6D3DA /* WebViewBackgroundMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				11538C9D1CF42CFF00F6D3DA /* WebViewBackgroundMusicTests.m */,
+				11538C9F1CF42CFF00F6D3DA /* Info.plist */,
+			);
+			path = WebViewBackgroundMusicTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11538C7F1CF42CFF00F6D3DA /* WebViewBackgroundMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11538CA21CF42CFF00F6D3DA /* Build configuration list for PBXNativeTarget "WebViewBackgroundMusic" */;
+			buildPhases = (
+				11538C7C1CF42CFF00F6D3DA /* Sources */,
+				11538C7D1CF42CFF00F6D3DA /* Frameworks */,
+				11538C7E1CF42CFF00F6D3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewBackgroundMusic;
+			productName = WebViewBackgroundMusic;
+			productReference = 11538C801CF42CFF00F6D3DA /* WebViewBackgroundMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11538C981CF42CFF00F6D3DA /* WebViewBackgroundMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11538CA51CF42CFF00F6D3DA /* Build configuration list for PBXNativeTarget "WebViewBackgroundMusicTests" */;
+			buildPhases = (
+				11538C951CF42CFF00F6D3DA /* Sources */,
+				11538C961CF42CFF00F6D3DA /* Frameworks */,
+				11538C971CF42CFF00F6D3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11538C9B1CF42CFF00F6D3DA /* PBXTargetDependency */,
+			);
+			name = WebViewBackgroundMusicTests;
+			productName = WebViewBackgroundMusicTests;
+			productReference = 11538C991CF42CFF00F6D3DA /* WebViewBackgroundMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11538C781CF42CFF00F6D3DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JustBen;
+				TargetAttributes = {
+					11538C7F1CF42CFF00F6D3DA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					11538C981CF42CFF00F6D3DA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 11538C7F1CF42CFF00F6D3DA;
+					};
+				};
+			};
+			buildConfigurationList = 11538C7B1CF42CFF00F6D3DA /* Build configuration list for PBXProject "WebViewBackgroundMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11538C771CF42CFF00F6D3DA;
+			productRefGroup = 11538C811CF42CFF00F6D3DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11538C7F1CF42CFF00F6D3DA /* WebViewBackgroundMusic */,
+				11538C981CF42CFF00F6D3DA /* WebViewBackgroundMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11538C7E1CF42CFF00F6D3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11538C931CF42CFF00F6D3DA /* LaunchScreen.storyboard in Resources */,
+				11538C901CF42CFF00F6D3DA /* Assets.xcassets in Resources */,
+				11538C8E1CF42CFF00F6D3DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11538C971CF42CFF00F6D3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11538C7C1CF42CFF00F6D3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11538C8B1CF42CFF00F6D3DA /* ViewController.m in Sources */,
+				11538C881CF42CFF00F6D3DA /* AppDelegate.m in Sources */,
+				11538C851CF42CFF00F6D3DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11538C951CF42CFF00F6D3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11538C9E1CF42CFF00F6D3DA /* WebViewBackgroundMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11538C9B1CF42CFF00F6D3DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11538C7F1CF42CFF00F6D3DA /* WebViewBackgroundMusic */;
+			targetProxy = 11538C9A1CF42CFF00F6D3DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11538C8C1CF42CFF00F6D3DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11538C8D1CF42CFF00F6D3DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11538C911CF42CFF00F6D3DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11538C921CF42CFF00F6D3DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11538CA01CF42CFF00F6D3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11538CA11CF42CFF00F6D3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11538CA31CF42CFF00F6D3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebViewBackgroundMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JB.WebViewBackgroundMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11538CA41CF42CFF00F6D3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebViewBackgroundMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JB.WebViewBackgroundMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11538CA61CF42CFF00F6D3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WebViewBackgroundMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JB.WebViewBackgroundMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebViewBackgroundMusic.app/WebViewBackgroundMusic";
+			};
+			name = Debug;
+		};
+		11538CA71CF42CFF00F6D3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WebViewBackgroundMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JB.WebViewBackgroundMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebViewBackgroundMusic.app/WebViewBackgroundMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11538C7B1CF42CFF00F6D3DA /* Build configuration list for PBXProject "WebViewBackgroundMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11538CA01CF42CFF00F6D3DA /* Debug */,
+				11538CA11CF42CFF00F6D3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11538CA21CF42CFF00F6D3DA /* Build configuration list for PBXNativeTarget "WebViewBackgroundMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11538CA31CF42CFF00F6D3DA /* Debug */,
+				11538CA41CF42CFF00F6D3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11538CA51CF42CFF00F6D3DA /* Build configuration list for PBXNativeTarget "WebViewBackgroundMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11538CA61CF42CFF00F6D3DA /* Debug */,
+				11538CA71CF42CFF00F6D3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11538C781CF42CFF00F6D3DA /* Project object */;
+}
