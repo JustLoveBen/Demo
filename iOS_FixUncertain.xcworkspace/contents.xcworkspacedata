@@ -2,6 +2,66 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:URIManager/URIManager.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:subviews/subviews.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProtocolArray/ProtocolArray.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:sizeFit/sizeFit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:imageCompression/imageCompression.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UTF-8/UTF-8.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:predicate/predicate.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:threadBindKernel/threadBindKernel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:sort/sort.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:thread/thread.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:numberArray/numberArray.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WebViewBackgroundMusic/WebViewBackgroundMusic.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Analytics/Analytics.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ClassMethod/ClassMethod.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swizzle/Swizzle.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Macro/Macro.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:reg/reg.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:mutiSelectionTable/mutiSelectionTable.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ToPinYin/ToPinYin.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ViewLifeCycle/ViewLifeCycle.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ArrayFunInSerialQueue/ArrayFunInSerialQueue.xcodeproj">
    </FileRef>
    <FileRef
